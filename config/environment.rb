@@ -9,7 +9,7 @@ ActionMailer::Base.smtp_settings = {
   :address        => ENV['MAILGUN_SMTP_SERVER'],
   :user_name      => ENV['MAILGUN_SMTP_LOGIN'],
   :password       => ENV['MAILGUN_SMTP_PASSWORD'],
-  :domain         => 'immense-hollows-52150.herokuapp.com',
+  :domain         => 'sandbox9782671c314d4ff2951d8f4ab667d74a.mailgun.org',
   :authentication => :plain,
 }
 ActionMailer::Base.delivery_method = :smtp
